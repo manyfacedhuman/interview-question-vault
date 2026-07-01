@@ -3,7 +3,7 @@ import requests
 import json
 
 # Replace with your API key
-API_KEY = "xai-KUrskMjMjc2lBHiw2ozeLpQZ6bfHqM47b1NayhlxiVFTF75A83pqgb37gdPBAzr6ILx8Ts1NbCWd8lM6"
+API_KEY = "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"
 API_URL = "https://api.x.ai/v1/chat/completions"  # Grok example; adjust for OpenAI
 
 def generate_questions(mode, input_text, num_questions=10):
