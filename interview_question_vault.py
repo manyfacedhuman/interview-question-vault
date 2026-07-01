@@ -20,7 +20,7 @@ Focus on key skills, responsibilities, and tools mentioned. Categorize questions
 Make them relevant for QA/Testing/BA roles."""
 
     payload = {
-        "model": "grok-beta",  # or gpt-4o-mini etc.
+        "model": "grok-3",  # or gpt-4o-mini etc.
         "messages": [{"role": "user", "content": prompt}],
         "temperature": 0.7,
         "max_tokens": 1500
